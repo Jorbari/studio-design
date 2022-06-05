@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Title</title>
+    <style>
+        /* @font-face {
+            font-family: 'gobold';
+            src: url('https://dxz7xvhrcq01u.cloudfront.net/_3VcXg65P6whi73VCAgC9.otf');
+        } */
+
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+            line-height: unset;
+            outline: none;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .main__wrapper {
+            width: 768px;
+            height: 1024px;
+        }
+
+        .inner_wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .left__side {
+            height: 295px;
+            width: 100%;
+        }
+        .left__side {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 47px 0;
+            padding: 35px 56px 44px 35px;
+        }
+        #left-bg {
+            background-color: #00678f;
+        }
+        .right__side {
+            flex: 1;
+        }
+        #right-img {
+            background-image: url('https://dxz7xvhrcq01u.cloudfront.net/sKAvT7SKoCJiaZhldUkMQ.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main__title {
+            color: #fff;
+            font-size: 53.5px;
+            line-height: 53.5px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .sub__title {
+            color: #00678f;
+            font-size: 55.5px;
+            background-color: #fff;
+            padding: 11px 42px;
+            text-transform: uppercase;
+            width: fit-content;
+            margin: 0 auto;
+        }
+        #main-title, #sub-title {
+            font-family: gobold !important;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class='main__wrapper'>
+        <div class='inner_wrapper' id='main-bg-img'>
+            <div class='left__side' id="left-bg">
+                <p class='main__title' id='main-title'>
+                    family law headline goes here
+                </p>
+                <p class='sub__title' id='sub-title'>
+                    website.com
+                </p>
+            </div>
+            <div class='right__side' id='right-img'></div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
