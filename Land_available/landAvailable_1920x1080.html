@@ -5,8 +5,7 @@
     <meta charset='UTF-8'>
     <title>Title</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
         *,
         *::after,
         *::before {
@@ -29,6 +28,7 @@
         .main__wrapper {
             width: 1920px;
             height: 1080px;
+            overflow: hidden;
         }
 
         .inner_wrapper {
@@ -36,11 +36,10 @@
             display: flex;
             height: 100%;
             width: 100%;
-            overflow: hidden;
         }
 
         .left__side {
-            width: 816px;
+            width: 960px;
             height: 100%;
         }
         .left__side {
@@ -48,39 +47,49 @@
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            gap: 47px 0;
-            padding: 51px;
+            padding: 48px;
         }
         #left-bg {
-            background-color: #00678f;
+            background-color: #00632c;
         }
         .right__side {
             flex: 1;
         }
         #right-img {
-            background-image: url('https://dxz7xvhrcq01u.cloudfront.net/sKAvT7SKoCJiaZhldUkMQ.png');
+            background-image: url('https://dxz7xvhrcq01u.cloudfront.net/Ljwzer0bWWyNLmIzVDBeS.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         .main__title {
-            color: #fff;
-            font-size: 98.5px;
-            line-height: 98.5px;
-            font-weight: 700;
+            color: #f1e9c5;
+            font-size: 142.5px;
+            line-height: 175.5px;
+            font-weight: bold;
+            margin-bottom: 75px;
             text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
         }
         .sub__title {
-            color: #00678f;
-            font-size: 89px;
-            background-color: #fff;
-            padding: 20px 9px;
-            margin-bottom: 28px;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-        #main-title, #sub-title {
+            font-size: 67.5px;
+            color: #edf4f3;
+            text-transform: capitalize;
+            font-weight: 800;
             font-family: 'Montserrat', sans-serif;
+        }
+        #sub-title-1 {
+            margin-bottom: 30px;
+        }
+        #sub-title-2 {
+            margin-bottom: 106px;
+        }
+        #land-logo {
+            height: 75px;
+            width: 244px;
+            margin: 0 auto;
+            background-image: url('https://dxz7xvhrcq01u.cloudfront.net/p2EDlKuV17LVGnACfDKXm.png');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
     </style>
@@ -91,11 +100,15 @@
         <div class='inner_wrapper' id='main-bg-img'>
             <div class='left__side' id="left-bg">
                 <p class='main__title' id='main-title'>
-                    family law headline goes here
+                    Land Available
                 </p>
-                <p class='sub__title' id='sub-title'>
-                    website.com
+                <p class='sub__title' id='sub-title-1'>
+                    Enter Your Details Here
                 </p>
+                <p class='sub__title' id='sub-title-2'>
+                    Enter Your Details Here
+                </p>
+                <section id="land-logo"></section>
             </div>
             <div class='right__side' id='right-img'></div>
             
