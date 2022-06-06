@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Kelly+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* @font-face {
+            font-family: 'gobold';
+            src: url('https://dxz7xvhrcq01u.cloudfront.net/_3VcXg65P6whi73VCAgC9.otf');
+        } */
+
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+        line-height: unset;
+        outline: none;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: 'Gothic A1', sans-serif;
+      }
+
+      .main__wrapper {
+        width: 768px;
+        height: 1024px;
+      }
+
+      .inner_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .image {
+        width: 768px;
+        height: 578px;
+        background-image: url("https://dxz7xvhrcq01u.cloudfront.net/6YwJIteYNGpc_T7nt1Wzf.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .container {
+        background-color: #570054;
+        padding: 35px;
+      }
+      .headline {
+        font-family: "Kelly Slab", sans-serif;
+        font-size: 90.5px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.85;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fcff00;
+        margin-bottom: 81px;
+      }
+      .footer {
+        display: grid;
+        grid-template-columns: 1fr .38fr;
+        grid-gap: 40px;
+      }
+      .brief {
+        display: grid;
+        grid-gap: 28px;
+      }
+      .brief__text {
+        font-size: 37.5px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.66;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+      }
+      .logo {
+        background: #fcff00;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main__wrapper">
+      <div class="inner_wrapper" id="main-bg-img">
+        <div class="image" id="image"></div>
+        <div class="container">
+          <p class="headline" id="headline">YOUR HEADLINE</p>
+          <div class="footer">
+            <div class="brief">
+              <p class="brief__text" id="brief-text-1">ENTER YOUR TEXT HERE</p>
+              <p class="brief__text" id="brief-text-2">ENTER YOUR TEXT HERE</p>
+            </div>
+            <div class="logo" id="logo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

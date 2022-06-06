@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* @font-face {
+            font-family: 'gobold';
+            src: url('https://dxz7xvhrcq01u.cloudfront.net/_3VcXg65P6whi73VCAgC9.otf');
+        } */
+
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+        line-height: unset;
+        outline: none;
+      }
+
+      html {
+        box-sizing: border-box;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      .main__wrapper {
+        width: 1920px;
+        height: 1080px;
+      }
+
+      .inner_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        align-items: flex-end;
+        justify-content: center;
+      }
+
+      #main-bg-img {
+        background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1) 80%), url("https://dxz7xvhrcq01u.cloudfront.net/9dNlnics2JjNyM-ugwVi7.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  left;
+        padding-bottom: 43px;
+        background-position: left, -290px;
+        padding-right: 96px;
+      }
+      .heading {
+      }
+      .heading__main-text {
+          max-width:  1083px;
+        font-family: "Michroma", sans-serif;
+        font-size: 242.5px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.85;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #ccc;
+        background-image: linear-gradient(to top, #ccc, #fff, #fff), linear-gradient(to bottom, #fff, #fff);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        -webkit-text-stroke: 0 0 2px #000;
+        margin-bottom: 50px;
+      }
+      .footer__main-text{
+        font-size: 105px;
+        font-weight: 600;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.85;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main__wrapper">
+      <div class="inner_wrapper" id="main-bg-img">
+        <p class="heading__main-text" id="heading-main-text">MOVIE TITLE</p>
+        <p class="footer__main-text" footer-main-text>IN THEATerS MAR 6</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

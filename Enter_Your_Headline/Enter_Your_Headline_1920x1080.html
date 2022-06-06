@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Kelly+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+        line-height: unset;
+        outline: none;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: "Gothic A1", sans-serif;
+      }
+
+      .main__wrapper {
+        width: 1920px;
+        height: 1080px;
+      }
+
+      .inner_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        align-items: flex-end;
+        justify-content: center;
+      }
+
+      #main-bg-img {
+        background-image: linear-gradient(
+            102deg,
+            transparent 0 50%,
+            #570054 50%
+          ),
+          url("https://dxz7xvhrcq01u.cloudfront.net/94wBEvRnzuqzVBUZ3_DdI.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-bottom: 43px;
+        background-position: left, -290px;
+        padding-right: 52px;
+      }
+      /* .image {
+        width: 768px;
+        height: 578px;
+        background-image: url("https://dxz7xvhrcq01u.cloudfront.net/6YwJIteYNGpc_T7nt1Wzf.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      } */
+      .headline {
+        font-family: "Kelly Slab", sans-serif;
+        font-size: 160px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.85;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fcff00;
+        margin-bottom: 38px;
+        max-width: 808px;
+      }
+      .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        max-width: 808px;
+        justify-items: center;
+      }
+      .brief {
+        display: grid;
+        grid-gap: 28px;
+        margin-bottom: 79px;
+      }
+      .brief__text {
+        font-size: 62.5px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.66;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+      }
+      .logo {
+        width: 369px;
+        height: 165px;
+
+        background: #fcff00;
+        font-size: 110px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.66;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main__wrapper">
+      <div class="inner_wrapper" id="main-bg-img">
+        <div class="image"></div>
+        <div class="container">
+        <p class="headline" id="headline">YOUR HEADLINE</p>
+          <div class="footer">
+            <div class="brief">
+                <p class="brief__text" id="brief-text-1">ENTER YOUR TEXT HERE</p>
+                <p class="brief__text" id="brief-text-2">ENTER YOUR TEXT HERE</p>
+            </div>
+            <div class="logo" id="logo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
